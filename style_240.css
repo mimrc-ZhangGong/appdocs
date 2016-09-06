@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+
+hr {color: sienna;}
+a:link { text-decoration: none}
+a:active { text-decoration: none }
+a:visited { text-decoration: none }
+p {margin-left: 20px;}
+td.message { background-color: #FFFFFF }
+td.menu { padding: 10px;}
+td.main {background-color: #FFFFFF; padding: 10px;}
+/*以上为 Jason 编写*/
+
+
+/* 显示数据的css */
+.blue {color:blue;}
+.data {margin:0px 10px; width:98%;}
+table{margin:0px auto;font-size:14px;}
+table.data {margin:0px auto;font-size:14px;}
+.tr_theme{height:26px;}
+.tr_theme th {
+	background: none repeat scroll 0 0 #ECEDEF;
+    color: #555555;
+    border-bottom: #45AE78 2px solid;
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+.tr_odd{background-color: #DCDCDC;line-height:28px;}
+.tr_even{background-color: #EFEFEF;line-height:28px;}
+.tr_odd td{border-bottom:1px solid #EEEBF2;}
+.tr_even td{border-bottom:1px solid #EEEBF2;}
+.tr_del{background-color: #FFCCFF;line-height:28px;text-decoration:line-through;}
+.tr_shade{}
+.tr_over,
+.tr_over_click{background-color: #CCFFFF;}
+.tr_click{background-color: #ffcc99;}
+
+/*显示日历*/
+table.calendar {border: 1px solid #050;}
+.calendar th, .calendar td {width:30px; text-align:center;}           
+.calendar th {background-color:#050; color:#fff;}
+.today{color:#fff; background-color:#050;}
+
+
+input {font-family:Verdana, Arial, Helvetica, sans-serif;}
+select{font-family:Verdana, Arial, Helvetica, sans-serif;}
+textarea{font-family:Verdana, Arial, Helvetica, sans-serif;}

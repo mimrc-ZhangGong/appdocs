@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+
+hr {color: sienna;}
+a:link { text-decoration: none}
+a:active { text-decoration: none }
+a:visited { text-decoration: none }
+li{list-style:none;}
+p {margin-left: 20px;}
+td.message { background-color: #E7E7E7;padding:8px 0;font-size:16px;}
+td.menu { padding: 10px;}
+td.main {background-color: #FFFFFF; padding: 8px 5px;}
+.p8{padding: 8px 0;}
+/*以上为 Jason 编写*/
+
+
+/* 显示数据的css */
+.blue {color:blue;}
+.data {margin:0px 10px;}
+table{margin:0px auto;}
+table.data {margin:0px auto;}
+.tr_theme{height:26px;}
+.tr_theme th {
+	background: none repeat scroll 0 0 #ECEDEF;
+    color: #555555;
+    border-bottom: #45AE78 2px solid;
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+.tr_odd{background-color: #DCDCDC;line-height:28px;}
+.tr_even{background-color: #EFEFEF;line-height:28px;}
+.tr_odd td{border-bottom:1px solid #EEEBF2;}
+.tr_even td{border-bottom:1px solid #EEEBF2;text-align:center;}
+.tr_del{background-color: #FFCCFF;line-height:28px;text-decoration:line-through;}
+.tr_shade{}
+.tr_over,
+.tr_over_click{background-color: #CCFFFF;}
+.tr_click{background-color: #ffcc99;}
+
+/*显示日历*/
+table.calendar {border: 1px solid #050;}
+.calendar th, .calendar td {width:30px; text-align:center;}           
+.calendar th {background-color:#050; color:#fff;}
+.today{color:#fff; background-color:#050;}
+
+
+input {font-family:Verdana, Arial, Helvetica, sans-serif;}
+select{font-family:Verdana, Arial, Helvetica, sans-serif;}
+textarea{font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+/*topmenu*/
+.topmenu{padding:8px 0;font-weight:bold;}
+.topmenu a{color:black;font-size:20px;}
+
+/*menu*/
+.pad-menu{width:40%;margin:0 auto;}
+.pad-menu li{background:#EEE;border:1px solid #CCC;}
+
+/*Tuphist*/
+.uphist{border:1px solid #CDCDCD;padding:5px;background:white;}
+.uphist li{display:block;margin-bottom:5px;}
+.uphist .title{font-weight:bold;background:#E2E9EA;border-left:5px solid #3A6EA5;padding:5px;border-bottom: 1px solid #CCC;font-size:13px;}
+.uphist .title span{font-weight:normal;}
+.uphist .title label{display:block;width:180px;float:left;}
+.uphist li p{margin:3px 0 3px 10px;}
+.uphist .name{background:#DAEFDF;border-bottom:1px dashed #CDCDCD;padding:2px 0;color:#555;position:relative;}
+.uphist .name span{position:absolute;left:180px;font-weight:bold;}
+.uphist .name label{position:absolute;left:400px;font-weight:bold;}
+.uphist .remark{padding:2px;color:#666;}
+
+/*table*/
+.main .data{background: #CDCDCD;width:98%;}
+.main .tr_theme th{background:#ECEDEF;color: #333;border-bottom: #45AE78 2px solid;white-space: nowrap;padding: 5px 0;}
+.main .tr_even td{padding: 5px 0;}
+
+/*menu style*/
+.pad-mainmenu li,.pad-usermenu li{float:left;margin:5px;}
+.pad-mainmenu a,.pad-usermenu a{height: 45px;display: block;width: 120px;background: #E2E9EA;margin-right: 5px;text-align: left;padding: 5px 0 0 10px;
+border-top-right-radius: 5px;box-shadow: 2px 1px 2px #ccc;}
+
+.main .tb{margin: 10px auto;}
+.td_bg td{background:white;}
+.tb td,.tb th{font-size:20px;padding:3px 5px;}
+.post{padding:0 15px;}
+
+.foot{background:#E7E7E7;padding:8px 0;}

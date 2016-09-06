@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</script>
+</head>
+<body>
+<div align="center">
+<script type="text/javascript">
+var xmlhttp
+var helpid = 100000;
+if(window.ActiveXObject)
+	xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+else if(window.XMLHttpRequest)
+	xmlhttp = new XMLHttpRequest();
+var url = "http://appdocs.sinaapp.com/getrecord.php?id=" + helpid;
+//url = "http://127.0.0.1/appdocs/1/getrecord.php?id=" + helpid;
+try {
+	xmlhttp.open("get", url, false);
+	xmlhttp.send();
+	document.write(xmlhttp.responseText);
+} catch (e) {
+	document.write("Call error: " + url);
+} finally {
+	xmlhttp = null;
+}
+</script>
+</div>
+</body>
+</html>
